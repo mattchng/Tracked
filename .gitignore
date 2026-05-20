@@ -1,5 +1,16 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+CLAUDE.md
+HANDOFF.md
+PLAN.md
+
+#----------- Python -----------
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+#----------- Other Stuff -----------
 # dependencies
 /node_modules
 /.pnp
@@ -34,3 +45,4 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
